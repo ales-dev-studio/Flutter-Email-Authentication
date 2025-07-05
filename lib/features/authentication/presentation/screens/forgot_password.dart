@@ -57,10 +57,10 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                             : Dimens.largePadding,
                   ),
                   Column(
+                    spacing: Dimens.largePadding,
                     children: [
                       AuthIllustration(width: 270),
                       AppTitleLargeText(t.forgotPass),
-                      const AppVSpace(),
                       Text(
                         t.forgotPassDesc,
                         textAlign: TextAlign.center,
