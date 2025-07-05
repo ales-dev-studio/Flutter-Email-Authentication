@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      slang_build_runner:
+        options:
+          input_directory: lib/core/localization
+          output_directory: lib/core/localization/i18n
+          output_file_name: translations.g.dart
+          output_format: multiple_files
