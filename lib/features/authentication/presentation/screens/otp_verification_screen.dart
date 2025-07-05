@@ -96,10 +96,10 @@ class _OtpVerificationScreenState extends State<_OtpVerificationScreen> {
                   Column(
                     spacing: Dimens.largePadding,
                     children: [
-                      AppVSpace(),
-                      AuthIllustration(),
-                      AppTitleLargeText(t.verifyOtp),
                       const AppVSpace(),
+                      AuthIllustration(),
+                      const AppVSpace(),
+                      AppTitleLargeText(t.verifyOtp),
                       Text(
                         t.verifyOtpDec,
                         textAlign: TextAlign.center,

@@ -1,5 +1,5 @@
 class Routes {
-  static const String baseUrl = 'https://your-api-address.com/';
+  static const String baseUrl = 'https://apilux.upsfx.com/';
   static const String register = 'auth/register';
   static const String login = 'auth/login';
   static const String logout = 'auth/logout';

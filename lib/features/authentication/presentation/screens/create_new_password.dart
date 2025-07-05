@@ -66,8 +66,9 @@ class _CreateNewPasswordState extends State<CreateNewPassword> {
                             : Dimens.extraLargePadding,
                   ),
                   AuthIllustration(),
+                  const AppVSpace(),
                   AppTitleLargeText(t.createPass),
-                  AppVSpace(),
+                  const AppVSpace(),
                   Form(
                     key: formKey,
                     child: Column(
