@@ -60,6 +60,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                     spacing: Dimens.largePadding,
                     children: [
                       AuthIllustration(width: 270),
+                      SizedBox.shrink(),
                       AppTitleLargeText(t.forgotPass),
                       Text(
                         t.forgotPassDesc,
