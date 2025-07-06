@@ -4,16 +4,17 @@ import '../../../../core/gen/assets.gen.dart';
 import '../../../../core/localization/i18n/translations.g.dart';
 import '../../../../core/widgets/app_text_form_field.dart';
 
-
 class EmailTextFormField extends StatelessWidget {
   const EmailTextFormField({
     super.key,
     required this.controller,
     this.textInputAction,
+    this.showIcon = true,
   });
 
   final TextEditingController controller;
   final TextInputAction? textInputAction;
+  final bool showIcon;
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +24,7 @@ class EmailTextFormField extends StatelessWidget {
       labelText: t.email,
       textInputType: TextInputType.emailAddress,
       hasValidation: true,
-      prefixIcon: TextFieldIconWidget(Assets.icons.mail),
+      prefixIcon: showIcon ? TextFieldIconWidget(Assets.icons.mail) : null,
       textInputAction: textInputAction ?? TextInputAction.next,
       validator: (value) {
         if (value == null || value.isEmpty) {

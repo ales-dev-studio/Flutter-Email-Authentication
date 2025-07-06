@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_authentication_screens_ui/features/authentication/presentation/widgets/email_text_form_field.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
@@ -161,20 +162,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
                   ),
                 ),
               ),
-              AppTextFormField(
-                controller: _emailController,
-                labelText: t.email,
-                focusNode: emailFocusNode,
-                nextFocusNode: phoneNumberFocusNode,
-                suffixIcon: Padding(
-                  padding: const EdgeInsets.all(Dimens.largePadding),
-                  child: AppSvgViewer(
-                    Assets.icons.letter,
-                    setDefaultWidthAndHeight: false,
-                    width: 18,
-                  ),
-                ),
-              ),
+              EmailTextFormField(controller: _emailController, showIcon: false),
               AppTextFormField(
                 controller: _phoneController,
                 labelText: t.phone,
