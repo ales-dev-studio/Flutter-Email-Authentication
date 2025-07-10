@@ -1,16 +1,36 @@
-# flutter_authentication_screens_ui
+# Complete Email Authentication Project with Flutter
 
-A new Flutter project.
+A fully functional email authentication system built with Flutter, featuring:
+- Screens: Sign-up, Login, Password Recovery, OTP Verification, and Profile Management.
+- Features:
+    - Validation: Form validations for all fields.
+    - Multi-language: Supports multiple languages (easy to add more).
+    - Dark/Light Themes: Built-in theme switching.
+    - State Management: Uses BLoC for clean architecture.
+    - Routing: Seamless navigation with GoRouter.
+    - Backend-Ready: Designed for easy API integration (uses Dio for HTTP).
 
-## Getting Started
+## Perfect for:
+- Developers needing a production-ready auth flow.
+- Projects requiring customizable authentication UI.
+- Learning Flutter best practices (BLoC, Dependency Injection, etc.).
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack:
+- Flutter
+- BLoC (State Management)
+- Dio (HTTP Client)
+- GetIt (Dependency Injection)
+- GoRouter (Navigation)
+- flutter_gen (Asset Generation)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Try it out! Clone and customize for your next project.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Repository Structure:
+- `core/`: Global utilities, themes, routes.
+- `features/`: Auth + Home modules (data, domain, presentation).
+- `assets/`: Icons, fonts, and images (auto-generated via `flutter_gen`).
+
+
+
+Note: Replace API endpoints with your backend, and you're good to go!
