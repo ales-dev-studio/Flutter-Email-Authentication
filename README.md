@@ -2,9 +2,9 @@
 
 ## Demo images
 
-![Demo](https://raw.githubusercontent.com/ales-dev-studio/flutter_authentication_screens_ui/refs/heads/main/assets/images/Demo-light.png)
+![Demo](https://raw.githubusercontent.com/ales-dev-studio/Flutter-Email-Authentication/refs/heads/main/assets/images/Demo-light.png)
 
-![Demo](https://raw.githubusercontent.com/ales-dev-studio/flutter_authentication_screens_ui/refs/heads/main/assets/images/Demo-dark.png)
+![Demo](https://raw.githubusercontent.com/ales-dev-studio/Flutter-Email-Authentication/refs/heads/main/assets/images/Demo-dark.png)
 
 A fully functional email authentication system built with Flutter, featuring:
 - Screens: Sign-up, Login, Password Recovery, OTP Verification, and Profile Management.
@@ -18,8 +18,8 @@ A fully functional email authentication system built with Flutter, featuring:
  
 ## Getting Started  
 ```bash
-git clone https://github.com/ales-dev-studio/flutter_email_authentication.git
-cd flutter_email_authentication
+git clone https://github.com/ales-dev-studio/Flutter-Email-Authentication.git
+cd Flutter-Email-Authentication
 flutter pub get
 flutter run
 ```
