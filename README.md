@@ -18,8 +18,8 @@ A fully functional email authentication system built with Flutter, featuring:
  
 ## Getting Started  
 ```bash
-git clone https://github.com/ales-dev-studio/flutter_authentication_screens_ui.git
-cd flutter_authentication_screens_ui
+git clone https://github.com/ales-dev-studio/flutter_email_authentication.git
+cd flutter_email_authentication
 flutter pub get
 flutter run
 ```
@@ -43,7 +43,7 @@ Try it out! Clone and customize for your next project.
 ## Repository Structure:
 - `core/`: Global utilities, themes, routes.
 - `features/`: Auth + Home modules (data, domain, presentation).
-- `assets/`: Icons, fonts, and images (auto-generated via `flutter_gen`).
+- `assets/`: Icons, fonts, and images.
 
 
 
