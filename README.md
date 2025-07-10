@@ -1,6 +1,6 @@
 # Complete Email Authentication Project with Flutter
 
-## Demo image
+## Demo images
 
 ![Demo](https://raw.githubusercontent.com/ales-dev-studio/flutter_authentication_screens_ui/refs/heads/main/assets/images/Demo-light.png)
 
