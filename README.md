@@ -1,5 +1,11 @@
 # Complete Email Authentication Project with Flutter
 
+## Demo image
+
+![Demo](https://raw.githubusercontent.com/ales-dev-studio/flutter_authentication_screens_ui/refs/heads/main/assets/images/Demo-light.png)
+
+![Demo](https://raw.githubusercontent.com/ales-dev-studio/flutter_authentication_screens_ui/refs/heads/main/assets/images/Demo-dark.png)
+
 A fully functional email authentication system built with Flutter, featuring:
 - Screens: Sign-up, Login, Password Recovery, OTP Verification, and Profile Management.
 - Features:
@@ -9,6 +15,14 @@ A fully functional email authentication system built with Flutter, featuring:
     - State Management: Uses BLoC for clean architecture.
     - Routing: Seamless navigation with GoRouter.
     - Backend-Ready: Designed for easy API integration (uses Dio for HTTP).
+ 
+## Getting Started  
+```bash
+git clone https://github.com/ales-dev-studio/flutter_authentication_screens_ui.git
+cd flutter_authentication_screens_ui
+flutter pub get
+flutter run
+```
 
 ## Perfect for:
 - Developers needing a production-ready auth flow.
